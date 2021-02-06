@@ -1,0 +1,7 @@
+This is the Ctrl O CPF server at [% now %]
+
+[% IF ssl_user %]
+Authenticated with [% ssl_user %]
+[% ELSE %]
+No SSL client authentication
+[% END %]

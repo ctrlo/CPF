@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Authorized User (Capgemini UK plc) -->
+<xs:schema targetNamespace="http://www.d2btrade.com/p2p/9" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns="http://www.d2btrade.com/p2p/9" xmlns:p2p="http://www.d2btrade.com/p2p/9" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Receiver" type="xs:normalizedString">
+		<xs:annotation>
+			<xs:documentation>Provides the logical location of the server and applications of the recipient of the Business Object Document.
+Code to be provided by the DECS TPTO team. </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="PriorityIndicator"  type="xs:normalizedString">
+		<xs:annotation>
+			<xs:documentation>The priority assigned to the BOD</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="InterfaceVersionID"  type="xs:normalizedString">
+		<xs:annotation>
+			<xs:documentation>Identifies the version of the Message Implementation Guide that describes this BOD</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ExpiryDateTime"  type="xs:dateTime">
+		<xs:annotation>
+			<xs:documentation>This is the DateTime the associated object ceases to be effective</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>
